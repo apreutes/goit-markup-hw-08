@@ -1,0 +1,101 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--back-color);
+}
+
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: var(--primary-white-color);
+}
+
+.address-list__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-list a {
+    font-style: normal;
+    line-height: 1.71;
+}
+
+.address-list__link {
+    color: var(--primary-white-color);
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Соцмережі */
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.footer-social-network-title {
+    display: block;
+    font-weight: 700;
+    color: var(--primary-white-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.socials-list__link--footer {
+
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--primary-white-color);
+
+    transition: background-color var(--transition-duration) var(--timing-function);
+}
+
+/* Розсилка */
+
+.footer-form {
+    display: flex;
+}
+
+.mailing-title {
+    @include font($fs: 14px, $lh: 16px);
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+
+    margin-bottom: 20px;
+}
+
+.mailing-input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    margin-right: 12px;
+
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: var(--back-color);
+
+    @include font(16px, 400, 20px);
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+
+    &::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+}
+
+/* Кнопка */
+
+.footer-mailing-button {
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    padding: 10px 28px;
+}
+
+.footer-button-icon {
+    align-self: center;
+    margin-left: 10px;
+}

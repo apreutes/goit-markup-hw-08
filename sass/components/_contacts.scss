@@ -1,0 +1,8 @@
+.contacts-link {
+    transition: color var(--transition-duration) var(--timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}

@@ -1,0 +1,13 @@
+.logo {
+    color: #000000;
+}
+
+.logo__accent {
+    color: var(--accent-color);
+}
+
+.logo,
+.logo__accent {
+    font-family: 'Raleway', sans-serif;
+    @include font(26px, 700, 31px);
+}
