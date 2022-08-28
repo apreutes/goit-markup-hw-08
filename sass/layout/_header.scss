@@ -46,8 +46,8 @@
     position: relative;
 
     display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     color: inherit;
     @include font(14px, 500, 16px);
@@ -131,14 +131,8 @@
 // Desktop
 
 @media screen and (min-width: 1200px) {
-
   .site-nav-list {
     margin-left: 93px;
-  }
-
-  .site-nav-item .link {
-    padding-top: 32px;
-    padding-bottom: 32px;
   }
 
   .contacts {

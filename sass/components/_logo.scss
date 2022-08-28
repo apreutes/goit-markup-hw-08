@@ -1,13 +1,33 @@
-.logo {
+@media screen and (max-width: 1199px) {
+  .logo {
     color: #000000;
-}
+  }
 
-.logo__accent {
+  .logo__accent {
     color: var(--accent-color);
+  }
+
+  .logo,
+  .logo__accent {
+    font-family: 'Raleway', sans-serif;
+    @include font(24px, 700, 28px);
+  }
 }
 
-.logo,
-.logo__accent {
+// Desktop
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    color: #000000;
+  }
+
+  .logo__accent {
+    color: var(--accent-color);
+  }
+
+  .logo,
+  .logo__accent {
     font-family: 'Raleway', sans-serif;
     @include font(26px, 700, 31px);
+  }
 }
