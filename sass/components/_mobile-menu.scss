@@ -76,6 +76,7 @@
     @include font(40px, 500, 47px);
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    transition: color var(--transition-duration) var(--timing-function);
 
     &:hover {
       color: var(--accent-color);
@@ -106,6 +107,11 @@
     @include font(21px, 500, 28px);
     letter-spacing: 0.02em;
     color: var(--text-color);
+    transition: color var(--transition-duration) var(--timing-function);
+
+    &:hover {
+      color: var(--accent-color);
+    }
   }
 
   .mobile-menu__socials {
@@ -152,6 +158,7 @@
     @include font(40px, 500, 47px);
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    transition: color var(--transition-duration) var(--timing-function);
 
     &:hover {
       color: var(--accent-color);
@@ -182,6 +189,11 @@
     @include font(24px, 500, 28px);
     letter-spacing: 0.02em;
     color: var(--text-color);
+    transition: color var(--transition-duration) var(--timing-function);
+
+    &:hover {
+      color: var(--accent-color);
+    }
   }
 
   .mobile-menu__socials {
