@@ -392,13 +392,11 @@
   .modal-form-check-desc {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: 30px;
     flex-wrap: wrap;
     line-height: 1.4;
-    transition: background-image 2s linear;
 
-    @include font(14px, 400, 24px);
+    @include font(12px, 400, 14px);
     color: var(--text-color);
     cursor: pointer;
 
